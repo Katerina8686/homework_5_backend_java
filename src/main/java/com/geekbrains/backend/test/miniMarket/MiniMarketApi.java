@@ -2,6 +2,7 @@ package com.geekbrains.backend.test.miniMarket;
 
 import java.util.List;
 
+import com.geekbrains.backend.test.miniMarket.model.Category;
 import com.geekbrains.backend.test.miniMarket.model.Product;
 import retrofit2.Call;
 import retrofit2.http.Body;
@@ -18,6 +19,9 @@ public interface MiniMarketApi {
 
     @GET("products/{id}")
     Call<Product> getProduct(@Path("id") Long id);
+
+    @GET("categories/{id}")
+    Call<Category> getCategory(@Path("id") Long id);
 
     @POST("products")
     Call<Object> createProduct(@Body Product product);

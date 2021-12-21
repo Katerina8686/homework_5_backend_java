@@ -5,55 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56159ec7-0b4e-442a-8474-0f5ae7651a47" name="Changes" comment="Lesson 5. Retrofit&#10;Тестируем внешний сервис при помощи клиента на Retrofit">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mini-market.mv.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/backend/test/db/DbService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/backend/test/db/TestDb.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/backend/test/db/homeWork.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/geekbrains/backend/test/db/myBatisConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" afterDir="false" />
-      <change afterPath="$USER_HOME$/arcadia/market/adv/incut/src/main/kotlin/ru/yandex/market/adv/incut/services/advertiser/model/Advertiser.kt" afterDir="false" />
-      <change afterPath="$USER_HOME$/arcadia/market/adv/incut/src/main/kotlin/ru/yandex/market/adv/incut/services/incut/mapper/AbstractIncutBodyMapper.kt" afterDir="false" />
-      <change afterPath="$USER_HOME$/arcadia/market/adv/incut/src/main/kotlin/ru/yandex/market/adv/incut/services/incut/mapper/BannerIncutBodyMapper.kt" afterDir="false" />
-      <change afterPath="$USER_HOME$/arcadia/market/adv/incut/src/main/kotlin/ru/yandex/market/adv/incut/services/incut/model/Incut.kt" afterDir="false" />
-      <change afterPath="$USER_HOME$/arcadia/market/adv/incut/src/main/kotlin/ru/yandex/market/adv/incut/services/incut/model/body/AbstractIncutBody.kt" afterDir="false" />
-      <change afterPath="$USER_HOME$/arcadia/market/adv/incut/src/main/kotlin/ru/yandex/market/adv/incut/services/incut/model/body/BannerIncutBody.kt" afterDir="false" />
-      <change afterPath="$USER_HOME$/arcadia/market/adv/incut/src/main/kotlin/ru/yandex/market/adv/incut/services/incut/registry/IncutBodyRegistry.kt" afterDir="false" />
-      <change afterPath="$USER_HOME$/arcadia/market/adv/incut/src/main/kotlin/ru/yandex/market/adv/incut/utils/time/TimeUtils.kt" afterDir="false" />
-      <change afterPath="$USER_HOME$/arcadia/market/adv/incut/src/main/resources/liquibase/ddl/incut/incut_history/incut_history.sql" afterDir="false" />
-      <change afterPath="$USER_HOME$/arcadia/market/adv/incut/src/test/resources/ru/yandex/market/adv/incut/clients/VendorPartnerClientTest/models.json" afterDir="false" />
-      <change afterPath="$USER_HOME$/arcadia/market/vendors/cs-billing/vendor-partner-client/src/java/ru/yandex/market/vendor/api/client/ModelsRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/backend/test/miniMarket/model/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/backend/test/miniMarket/model/CategoryResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$USER_HOME$/arcadia/market/adv/incut/src/main/java/ru/yandex/market/adv/incut/api/DefaultApiService.java" beforeDir="false" afterPath="$USER_HOME$/arcadia/market/adv/incut/src/main/java/ru/yandex/market/adv/incut/api/DefaultApiService.java" afterDir="false" />
-      <change beforePath="$USER_HOME$/arcadia/market/adv/incut/src/main/kotlin/ru/yandex/market/adv/incut/config/AppConfig.kt" beforeDir="false" afterPath="$USER_HOME$/arcadia/market/adv/incut/src/main/kotlin/ru/yandex/market/adv/incut/config/AppConfig.kt" afterDir="false" />
-      <change beforePath="$USER_HOME$/arcadia/market/adv/incut/src/main/kotlin/ru/yandex/market/adv/incut/config/DaoConfig.kt" beforeDir="false" afterPath="$USER_HOME$/arcadia/market/adv/incut/src/main/kotlin/ru/yandex/market/adv/incut/config/DaoConfig.kt" afterDir="false" />
-      <change beforePath="$USER_HOME$/arcadia/market/adv/incut/src/main/kotlin/ru/yandex/market/adv/incut/config/ExecutorsConfig.kt" beforeDir="false" afterPath="$USER_HOME$/arcadia/market/adv/incut/src/main/kotlin/ru/yandex/market/adv/incut/config/ExecutorsConfig.kt" afterDir="false" />
-      <change beforePath="$USER_HOME$/arcadia/market/adv/incut/src/main/kotlin/ru/yandex/market/adv/incut/config/ServiceConfig.kt" beforeDir="false" afterPath="$USER_HOME$/arcadia/market/adv/incut/src/main/kotlin/ru/yandex/market/adv/incut/config/ServiceConfig.kt" afterDir="false" />
-      <change beforePath="$USER_HOME$/arcadia/market/adv/incut/src/main/kotlin/ru/yandex/market/adv/incut/dao/TestDao.kt" beforeDir="false" />
-      <change beforePath="$USER_HOME$/arcadia/market/adv/incut/src/main/kotlin/ru/yandex/market/adv/incut/dao/advetiser/AdvertiserDao.kt" beforeDir="false" afterPath="$USER_HOME$/arcadia/market/adv/incut/src/main/kotlin/ru/yandex/market/adv/incut/dao/advetiser/AdvertiserDao.kt" afterDir="false" />
-      <change beforePath="$USER_HOME$/arcadia/market/adv/incut/src/main/kotlin/ru/yandex/market/adv/incut/dao/incut/IncutDao.kt" beforeDir="false" afterPath="$USER_HOME$/arcadia/market/adv/incut/src/main/kotlin/ru/yandex/market/adv/incut/dao/incut/IncutDao.kt" afterDir="false" />
-      <change beforePath="$USER_HOME$/arcadia/market/adv/incut/src/main/kotlin/ru/yandex/market/adv/incut/mapper" beforeDir="false" />
-      <change beforePath="$USER_HOME$/arcadia/market/adv/incut/src/main/kotlin/ru/yandex/market/adv/incut/mapper/AdvertiserMapper.kt" beforeDir="false" afterPath="$USER_HOME$/arcadia/market/adv/incut/src/main/kotlin/ru/yandex/market/adv/incut/dao/advetiser/mapper/AdvertiserMapper.kt" afterDir="false" />
-      <change beforePath="$USER_HOME$/arcadia/market/adv/incut/src/main/kotlin/ru/yandex/market/adv/incut/mapper/IncutMapper.kt" beforeDir="false" afterPath="$USER_HOME$/arcadia/market/adv/incut/src/main/kotlin/ru/yandex/market/adv/incut/services/incut/mapper/IncutMapper.kt" afterDir="false" />
-      <change beforePath="$USER_HOME$/arcadia/market/adv/incut/src/main/kotlin/ru/yandex/market/adv/incut/quartz/jobs/SimpleJob.kt" beforeDir="false" />
-      <change beforePath="$USER_HOME$/arcadia/market/adv/incut/src/main/kotlin/ru/yandex/market/adv/incut/services/IncutService.kt" beforeDir="false" afterPath="$USER_HOME$/arcadia/market/adv/incut/src/main/kotlin/ru/yandex/market/adv/incut/services/incut/IncutService.kt" afterDir="false" />
-      <change beforePath="$USER_HOME$/arcadia/market/adv/incut/src/main/kotlin/ru/yandex/market/adv/incut/services/TestService.kt" beforeDir="false" />
-      <change beforePath="$USER_HOME$/arcadia/market/adv/incut/src/main/kotlin/ru/yandex/market/adv/incut/validator/IncutRequestValidator.kt" beforeDir="false" afterPath="$USER_HOME$/arcadia/market/adv/incut/src/main/kotlin/ru/yandex/market/adv/incut/validator/IncutRequestValidator.kt" afterDir="false" />
-      <change beforePath="$USER_HOME$/arcadia/market/adv/incut/src/main/resources/liquibase/ddl/incut/advertiser/advertiser.sql" beforeDir="false" afterPath="$USER_HOME$/arcadia/market/adv/incut/src/main/resources/liquibase/ddl/incut/advertiser/advertiser.sql" afterDir="false" />
-      <change beforePath="$USER_HOME$/arcadia/market/adv/incut/src/main/resources/liquibase/ddl/incut/changelog.xml" beforeDir="false" afterPath="$USER_HOME$/arcadia/market/adv/incut/src/main/resources/liquibase/ddl/incut/changelog.xml" afterDir="false" />
-      <change beforePath="$USER_HOME$/arcadia/market/adv/incut/src/main/resources/liquibase/ddl/incut/incut/incut.sql" beforeDir="false" afterPath="$USER_HOME$/arcadia/market/adv/incut/src/main/resources/liquibase/ddl/incut/incut/incut.sql" afterDir="false" />
-      <change beforePath="$USER_HOME$/arcadia/market/adv/incut/src/main/resources/liquibase/ddl/incut/test.sql" beforeDir="false" />
-      <change beforePath="$USER_HOME$/arcadia/market/adv/incut/src/main/resources/liquibase/dml/changelog.xml" beforeDir="false" afterPath="$USER_HOME$/arcadia/market/adv/incut/src/main/resources/liquibase/dml/changelog.xml" afterDir="false" />
-      <change beforePath="$USER_HOME$/arcadia/market/adv/incut/src/main/resources/liquibase/dml/test.sql" beforeDir="false" />
-      <change beforePath="$USER_HOME$/arcadia/market/adv/incut/src/main/resources/openapi/api/api.yaml" beforeDir="false" afterPath="$USER_HOME$/arcadia/market/adv/incut/src/main/resources/openapi/api/api.yaml" afterDir="false" />
-      <change beforePath="$USER_HOME$/arcadia/market/adv/incut/src/test/kotlin/ru/yandex/market/adv/incut/clients/VendorPartnerClientTest.kt" beforeDir="false" afterPath="$USER_HOME$/arcadia/market/adv/incut/src/test/kotlin/ru/yandex/market/adv/incut/clients/VendorPartnerClientTest.kt" afterDir="false" />
-      <change beforePath="$USER_HOME$/arcadia/market/adv/incut/src/test/kotlin/ru/yandex/market/adv/incut/controllers/IncutControllerFunctionalTest.kt" beforeDir="false" afterPath="$USER_HOME$/arcadia/market/adv/incut/src/test/kotlin/ru/yandex/market/adv/incut/controllers/IncutControllerFunctionalTest.kt" afterDir="false" />
-      <change beforePath="$USER_HOME$/arcadia/market/adv/incut/src/test/kotlin/ru/yandex/market/adv/incut/quartz/SimpleJobTest.kt" beforeDir="false" />
-      <change beforePath="$USER_HOME$/arcadia/market/adv/incut/src/test/resources/ru/yandex/market/adv/incut/controllers/IncutControllerFunctionalTest/createIncuts/after.csv" beforeDir="false" afterPath="$USER_HOME$/arcadia/market/adv/incut/src/test/resources/ru/yandex/market/adv/incut/controllers/IncutControllerFunctionalTest/createIncuts/after.csv" afterDir="false" />
-      <change beforePath="$USER_HOME$/arcadia/market/adv/incut/src/test/resources/ru/yandex/market/adv/incut/controllers/IncutControllerFunctionalTest/createIncuts/incut_body.json" beforeDir="false" afterPath="$USER_HOME$/arcadia/market/adv/incut/src/test/resources/ru/yandex/market/adv/incut/controllers/IncutControllerFunctionalTest/createIncuts/incut_body.json" afterDir="false" />
-      <change beforePath="$USER_HOME$/arcadia/market/vendors/cs-billing/vendor-partner-client/src/java/ru/yandex/market/vendor/api/client/CategoryRequestHelper.java" beforeDir="false" afterPath="$USER_HOME$/arcadia/market/vendors/cs-billing/vendor-partner-client/src/java/ru/yandex/market/vendor/api/client/CategoryRequest.java" afterDir="false" />
-      <change beforePath="$USER_HOME$/arcadia/market/vendors/cs-billing/vendor-partner-client/src/java/ru/yandex/market/vendor/api/client/VendorPartnerClient.java" beforeDir="false" afterPath="$USER_HOME$/arcadia/market/vendors/cs-billing/vendor-partner-client/src/java/ru/yandex/market/vendor/api/client/VendorPartnerClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/geekbrains/backend/test/miniMarket/MiniMarketApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/backend/test/miniMarket/MiniMarketApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/geekbrains/backend/test/miniMarket/MiniMarketService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/backend/test/miniMarket/MiniMarketService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +50,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources/com/geekbrains/backend/test/ImgurApiFunctionalTest" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -114,11 +71,29 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.geekbrains.backend.test" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.geekbrains.backend.test.miniMarket.model" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.TestDb">
+  <component name="RunManager" selected="Application.Test">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.geekbrains.backend.test.Test" />
-      <module name="backend-test-dec-2021" />
+      <module name="homework_5_backend_java" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.geekbrains.backend.test.*" />
@@ -138,19 +113,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -204,8 +166,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestDb" />
         <item itemvalue="Application.Test" />
+        <item itemvalue="Application.TestDb" />
         <item itemvalue="JUnit.ImgurApiFunctionalTest" />
         <item itemvalue="JUnit.ImgurApiFunctionalTest.getAccountBase" />
         <item itemvalue="JUnit.ImgurApiFunctionalTest.postImageTest" />
@@ -247,6 +209,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Lesson 3. Rest Assured&#10;Тестирование внешнего сервиса при помощи Rest Assured" />
