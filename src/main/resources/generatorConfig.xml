@@ -3,11 +3,11 @@
         "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
 
 <generatorConfiguration>
-    <classPathEntry  location="/Users/mikelevin/.m2/repository/com/h2database/h2/1.4.200/h2-1.4.200.jar"/>
+    <classPathEntry  location="C:\Users\Ekaterina\.m2\repository\com\h2database\h2\1.4.200\h2-1.4.200.jar"/>
 
     <context id="DB2Tables" targetRuntime="MyBatis3">
         <jdbcConnection driverClass="org.h2.Driver"
-                        connectionURL="jdbc:h2:/Users/mikelevin/IdeaProjects/gb/backend/test/backend-test-dec-2021/mini-market"
+                        connectionURL="jdbc:h2:C:/Users/Ekaterina/Downloads/homework_5_backend_java/mini-market"
                         userId="sa"
                         password="">
         </jdbcConnection>

@@ -8,7 +8,7 @@
             <transactionManager type="JDBC"/>
             <dataSource type="POOLED">
                 <property name="driver" value="org.h2.Driver"/>
-                <property name="url" value="jdbc:h2:/Users/mikelevin/IdeaProjects/gb/backend/test/backend-test-dec-2021/mini-market"/>
+                <property name="url" value="jdbc:h2:C:/Users/Ekaterina/Downloads/homework_5_backend_java/mini-market"/>
                 <property name="username" value="sa"/>
                 <property name="password" value=""/>
             </dataSource>
