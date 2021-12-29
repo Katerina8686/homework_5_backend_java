@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56159ec7-0b4e-442a-8474-0f5ae7651a47" name="Changes" comment="Lesson 5. Retrofit&#10;Тестируем внешний сервис при помощи клиента на Retrofit">
+    <list default="true" id="56159ec7-0b4e-442a-8474-0f5ae7651a47" name="Changes" comment="my Lesson 7">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/geekbrains/backend/test/FunctionalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/geekbrains/backend/test/FunctionalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +73,7 @@
       <recent name="com.geekbrains.backend.test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestDb">
+  <component name="RunManager" selected="JUnit.ImgurApiFunctionalTest (1)">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -83,21 +83,6 @@
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.geekbrains.backend.test.Test" />
-      <module name="homework_5_backend_java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.geekbrains.backend.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -113,6 +98,21 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ImgurApiFunctionalTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="homework_5_backend_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.geekbrains.backend.test.imgur.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.geekbrains.backend.test.imgur" />
+      <option name="MAIN_CLASS_NAME" value="com.geekbrains.backend.test.imgur.ImgurApiFunctionalTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -165,19 +165,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Test" />
       <item itemvalue="Application.TestDb" />
       <item itemvalue="JUnit.ImgurApiFunctionalTest" />
       <item itemvalue="JUnit.ImgurApiFunctionalTest.getAccountBase" />
       <item itemvalue="JUnit.ImgurApiFunctionalTest.postImageTest" />
+      <item itemvalue="JUnit.ImgurApiFunctionalTest (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ImgurApiFunctionalTest (1)" />
         <item itemvalue="Application.TestDb" />
         <item itemvalue="JUnit.ImgurApiFunctionalTest.postImageTest" />
         <item itemvalue="JUnit.ImgurApiFunctionalTest.getAccountBase" />
         <item itemvalue="JUnit.ImgurApiFunctionalTest" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -218,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640680383143</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="my Lesson 7">
+      <created>1640717202616</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1640717202616</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,6 +246,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Lesson 3. Rest Assured&#10;Тестирование внешнего сервиса при помощи Rest Assured" />
     <MESSAGE value="Lesson 5. Retrofit&#10;Тестируем внешний сервис при помощи клиента на Retrofit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson 5. Retrofit&#10;Тестируем внешний сервис при помощи клиента на Retrofit" />
+    <MESSAGE value="my Lesson 7" />
+    <option name="LAST_COMMIT_MESSAGE" value="my Lesson 7" />
   </component>
 </project>
